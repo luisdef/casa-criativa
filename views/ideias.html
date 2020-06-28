@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+
+{% block title %}
+  <title>Ideias - Casa Criativa</title>
+  <link rel="shortcut icon" href="/public/ico/favicon1.ico" type="image/x-icon">
+{% endblock %}
+
+{% set bodyId = "page-ideias" %}
+
+{% block content %}
+<header>
+    <a href="/">
+      <img src="./img/logo.png" alt="Logo Casa Criativa">
+    </a>
+
+    <nav>
+        <li><a href="/">Início</a></li>
+        <li><a class="button" href="#" onclick="onOff()">Nova Ideia</a></li>
+    </nav>
+
+</header>
+
+<section id="title">
+    <p>em exibição</p>
+    <h1>ideias</h1>
+</section>
+
+<main>
+
+    <section id="ideias">
+    
+      {% include "all_ideas.html" %}
+
+    </section>
+
+</main>
+
+<footer>
+    Com 
+    <span class="heart">
+      ❤
+    </span>
+    <a href="http://rocketseat.com.br" target="_blank">
+      Rocketseat
+    </a>
+</footer>
+{% endblock %}
