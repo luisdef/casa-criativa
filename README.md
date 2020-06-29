@@ -18,4 +18,4 @@
 
 - Para rodar o site, é necessário rodar o servidor local, dando o comando `npm run dev`
 
-![Screenshot](https://github.com/luisassmann/casa-criativa/public/img/screen-casa-criativa.png)
+![Screenshot](https://github.com/luisassmann/casa-criativa/blob/master/public/img/screen-casa-criativa.png?raw=true)
