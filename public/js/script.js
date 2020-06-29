@@ -1,3 +1,4 @@
+// Funcs
 function onOff() {
   document
     .querySelector("#modal")
