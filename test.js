@@ -71,8 +71,6 @@
 			"	} );";
 
 		eval( dynamicImportSource );
-
-	// Apply similar treatment for AMD modules
 	} else if ( config.amd && QUnit ) {
 		require.config( {
 			baseUrl: parentUrl
@@ -85,8 +83,6 @@
 		} else {
 			require( [ src ] );
 		}
-
-	// Otherwise, load synchronously
 	} else {
 		document.write( "<script id='jquery-js' nonce='jquery+hardcoded+nonce' src='" + parentUrl + src + "'><\x2Fscript>" );
 	}
