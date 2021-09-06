@@ -2,7 +2,7 @@
 
 ## Ideias para crise
 
-- O projeto é uma ideia de ajuda da comunidade para deixar o tempo de qurentena, por causa do covid-19, mais leves e fáceis de lidar. Ideia criada pela [Rocketseat](https://rocketseat.com.br/) 🚀.
+- O projeto é uma ideia de ajuda da comunidade para deixar o tempo de qurentena, por causa do covid-19, mais leves e fáceis de lidar. Ideia criada pela [Rocketseat](https://rocketseat.com.br/).
 
 ### Funcionalidades
 
