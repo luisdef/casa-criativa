@@ -14,27 +14,27 @@ db.serialize(function() {
             link TEXT
         );    
     `)
-    //Inserir dados na tabela
-    //const query = `INSERT INTO ideias(
+    // // Inserir dados na tabela
+    // const query = `INSERT INTO ideias(
     //    image,
     //    title,
     //    category,
     //    description,
     //    link
-    //) VALUES(?,?,?,?,?);`
+    // ) VALUES(?,?,?,?,?);`
 
-    //const values = [
+    // const values = [
     //    "https://image.flaticon.com/icons/svg/2729/2729007.svg",
     //    "Cursos de Programação",
     //    "Estudo",
     //    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia ducimus magnam error reprehenderit neque...",
     //    "http://rocketseat.com.br"
-    //]
-    //db.run(query, values, function(err){
+    // ]
+    // db.run(query, values, function(err){
     //    if (err) return console.log(err)
-    //
+    
     //    console.log(this)
-    //})
+    // })
     
     // Deletar um dado na tabela
     /* db.run(`DELETE FROM ideias WHERE id = ?`, [6], function(err) {

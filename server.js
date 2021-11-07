@@ -5,9 +5,6 @@ const server = express()
 
 const db = require('./db')
 
-
-
-
 // configurar arquivos státicos(css, scripts, images, etc)
 server.use(express.static("public"))
 

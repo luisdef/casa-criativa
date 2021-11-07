@@ -1,0 +1,25 @@
+{
+  "name": "casa-criativa",
+  "version": "1.0.0",
+  "description": "- O projeto é uma ideia de ajuda da comunidade para deixar o tempo de qurentena, por causa do covid-19, mais leves e fáceis de lidar. Ideia criada pela [Rocketseat](https://rocketseat.com.br/).",
+  "main": "db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisdef/node-casa-criativa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisdef/node-casa-criativa/issues"
+  },
+  "homepage": "https://github.com/luisdef/node-casa-criativa#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.3",
+    "sqlite3": "^5.0.2"
+  }
+}
