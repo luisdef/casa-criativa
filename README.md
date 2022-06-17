@@ -17,15 +17,19 @@
 - Site criado usando o [Node.js](http://nodejs.org/) e [express](https://www.npmjs.com/package/express) no Back-end, HTML, CSS e JavaScript puro no Front-end. Banco de dados [Sqlite](https://www.sqlite.org/). Para a vizualização de conteúdo vindo do Back-end foi usado o [nunjunks](https://www.npmjs.com/package/nunjucks), pacote do Node.js.
 
 - Para rodar o servidor da aplicação:
+  - Primeiramente, é necesário que sejam instaladas as dependências do projeto, informadas no [package.json](https://github.com/luisdef/casa-criativa/blob/master/package.json), para tanto, rode o seguinte comando:
+    ```sh
+    npm install # ou yarn install
+    ```
   - Em ambiente de desenvolvimento (utilizando o Nodemon para debug e atualização em tempo real dos arquivos que estão sendo modificados) é só rodar:
     ```sh
-    npm run dev
+    npm run dev # ou yarn run dev
     ```
   - Em ambiente de produção:
     ```sh
-    npm start
+    npm start # ou yarn start
     ```
 
 ### Licença
 
-- [MIT](https://github.com/luisdef/node-casa-criativa/blob/master/LICENSE).
+- [MIT License](https://github.com/luisdef/node-casa-criativa/blob/master/LICENSE).
