@@ -1,21 +1,31 @@
 # Casa Criativa
 
-## Ideias para crise
+## Projeto de para COVID-19
 
-- O projeto é uma ideia de ajuda da comunidade para deixar o tempo de qurentena, por causa do covid-19, mais leves e fáceis de lidar. Ideia criada pela [Rocketseat](https://rocketseat.com.br/).
+- O projeto é uma ideia de ajuda da comunidade para deixar o tempo de quarentena, por causa do vírus da COVID-19, mais leves e fáceis de lidar. Ideia adaptada da pela [Rocketseat](https://rocketseat.com.br/).
 
 ### Funcionalidades
 
 - O usuário poderá navagar nas ideias já apresentadas e também poderá colocar a sua ideia no site.
 
-### Requisitos
+### Requisitos para rodar o sistema na máquina
 
 - Ter instalado [Node.js](http://nodejs.org/), opcionalmente, se for windows o [Chocolatey](https://chocolatey.org/), ou macOS o [Homebrew](https://brew.sh/).
 
 ### Ferramentas
 
-- Site criado usando o [Node.js](http://nodejs.org/) e [express](https://www.npmjs.com/package/express) no back-end, html e css puro no front-end. Banco de dados [sqlite3](https://www.sqlite.org/). No html foi usado também o [nunjunks](https://www.npmjs.com/package/nunjucks).
+- Site criado usando o [Node.js](http://nodejs.org/) e [express](https://www.npmjs.com/package/express) no Back-end, HTML, CSS e JavaScript puro no Front-end. Banco de dados [Sqlite](https://www.sqlite.org/). Para a vizualização de conteúdo vindo do Back-end foi usado o [nunjunks](https://www.npmjs.com/package/nunjucks), pacote do Node.js.
 
-- Para rodar o site, é necessário rodar o servidor local, dando o comando `npm run dev`
+- Para rodar o servidor da aplicação:
+  - Em ambiente de desenvolvimento (utilizando o Nodemon para debug e atualização em tempo real dos arquivos que estão sendo modificados) é só rodar:
+    ```sh
+    npm run dev
+    ```
+  - Em ambiente de produção:
+    ```sh
+    npm start
+    ```
 
-![Screenshot](https://github.com/luisassmann/casa-criativa/blob/master/public/img/screen-casa-criativa.png?raw=true)
+### Licença
+
+- [MIT](https://github.com/luisdef/node-casa-criativa/blob/master/LICENSE).
