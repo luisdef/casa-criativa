@@ -2,7 +2,7 @@
 
 ## Projeto da pandemia de COVID-19
 
-- O projeto é uma ideia de ajuda da comunidade para deixar o tempo de quarentena, por causa do vírus da COVID-19, mais leves e fáceis de lidar. Ideia adaptada da [Rocketseat](https://rocketseat.com.br/).
+- O projeto é uma ideia de ajuda da comunidade para deixar o tempo de quarentena mais leve e fácil de lidar, por causa da pandemia de COVID-19. Ideia adaptada da [Rocketseat](https://rocketseat.com.br/).
 
 ### Funcionalidades
 
